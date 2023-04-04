@@ -1,3 +1,5 @@
+server:
+  port : 9090
 
 spring:
   cloud:
@@ -11,3 +13,5 @@ spring:
           uri: http://localhost:8081/
           predicates:
             - Path=/employee/**
+  application:
+    name: ApiGateWay            -
